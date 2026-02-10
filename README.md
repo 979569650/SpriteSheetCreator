@@ -1,60 +1,60 @@
 # SpriteSheetCreator
 
-A powerful .NET WPF application for creating sprite sheets from sequences of images. Built with .NET 8 and CommunityToolkit.Mvvm.
+一个强大的 .NET WPF 应用程序，用于从图像序列创建精灵表（Sprite Sheets）。基于 .NET 8 和 CommunityToolkit.Mvvm 构建。
 
-## Features
+## 功能特性
 
-- **Batch Processing**: Load multiple image files from a folder.
-- **Customizable Layout**: Configure columns, rows, and start frame index.
-- **Cropping**: Advanced crop settings to trim whitespace or focus on specific areas.
-- **Preview**: Real-time preview of the generated frames.
-- **Export Options**: 
-  - Adjustable padding and spacing.
-  - Support for different output formats (PNG).
-  - Configurable frame rate for preview.
+- **批量处理**：从文件夹加载多个图像文件。
+- **自定义布局**：配置列数、行数和起始帧索引。
+- **裁剪功能**：高级裁剪设置，用于去除空白或聚焦特定区域。
+- **实时预览**：实时预览生成的帧动画效果。
+- **导出选项**：
+  - 可调节的填充（Padding）和间距（Spacing）。
+  - 支持多种输出格式（如 PNG）。
+  - 可配置预览帧率。
 
-## Requirements
+## 系统要求
 
-- Windows OS
-- .NET 8.0 Runtime
+- Windows 操作系统
+- .NET 8.0 运行时
 
-## Getting Started
+## 快速开始
 
-### Installation
+### 安装
 
-1. Clone the repository:
+1. 克隆仓库：
    ```bash
    git clone https://github.com/979569650/SpriteSheetCreator.git
    ```
-2. Open the solution `SpriteSheetCreator.sln` in Visual Studio 2022 or your preferred .NET IDE.
+2. 在 Visual Studio 2022 或您喜欢的 .NET IDE 中打开解决方案 `SpriteSheetCreator.sln`。
 
-### Building
+### 构建
 
-You can build the project using the .NET CLI:
+您可以使用 .NET CLI 构建项目：
 
 ```bash
 dotnet build
 ```
 
-### Running
+### 运行
 
-Run the application from the `src/SpriteSheetCreator.App` directory:
+从 `src/SpriteSheetCreator.App` 目录运行应用程序：
 
 ```bash
 dotnet run --project src/SpriteSheetCreator.App/SpriteSheetCreator.App.csproj
 ```
 
-## Project Structure
+## 项目结构
 
-- **src/SpriteSheetCreator.App**: The main WPF application containing Views and ViewModels.
-- **src/SpriteSheetCreator.Core**: Core logic library containing models and image processing services.
+- **src/SpriteSheetCreator.App**：包含视图（Views）和视图模型（ViewModels）的主 WPF 应用程序。
+- **src/SpriteSheetCreator.Core**：包含模型和图像处理服务的核心逻辑库。
 
-## Technologies Used
+## 技术栈
 
-- **.NET 8**: The latest LTS version of the .NET platform.
-- **WPF (Windows Presentation Foundation)**: For the desktop user interface.
-- **CommunityToolkit.Mvvm**: For implementing the Model-View-ViewModel pattern efficiently.
+- **.NET 8**：最新的 .NET 长期支持（LTS）版本。
+- **WPF (Windows Presentation Foundation)**：用于构建桌面用户界面。
+- **CommunityToolkit.Mvvm**：用于高效实现 MVVM（Model-View-ViewModel）模式。
 
-## License
+## 许可证
 
-This project is licensed under the MIT License.
+本项目采用 MIT 许可证。
