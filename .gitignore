@@ -98,53 +98,10 @@ ipch/
 [Bb]uild[Ll]og.*
 
 # NUnit
-*.VisualState.xml
-TestResult.xml
-nunit-*.xml
 
-# Build Results of an ATL Project
-[Dd]ebugPS/
-[Rr]eleasePS/
-dlldata.c
+# Local Tools
+.tools/
 
-# Benchmark Results
-BenchmarkDotNet.Artifacts/
-
-# .NET Core
-project.lock.json
-project.fragment.lock.json
-artifacts/
-
-# ASP.NET Scaffolding
-ScaffoldingReadMe.txt
-
-# StyleCop
-StyleCopReport.xml
-
-# FxCop
-FxCopReport.xml
-
-# Service Fabric Backup files
-**/*_Backup.bak
-
-# Common Windows virtual machine files
-thumbs.db
-ehthumbs.db
-Desktop.ini
-
-# Bower Dependency folders
-bower_components/
-
-# Node.js Dependency folders
-node_modules/
-
-# Omitted more specific ones for brevity, this covers the basics.
-# Also dist/ and publish/ as seen in this project
-dist/
+# Publish output
 publish/
-publish_v2/
 *.zip
-
-# Editors
-.vscode/
-.claude/
